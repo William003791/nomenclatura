@@ -1,0 +1,48 @@
+class Nomenclatura():
+    def __init__(self,nombre):
+        self.elemento1 = "Ca"
+        self.elemento2 = "O"
+        self.clase = "Oxido"
+        self.nOxidacion = -2
+        self.nombre = nombre
+
+    def info(self):
+        print("EL",self.elemento1 + self.elemento2,"Es un sólido inodoro de blanco a gris. Se emplea en materiales de fabricación, el procesamiento de metales, la agricultura y el tratamiento de aguas residuales.")
+
+       
+    def mostrar_datos(self):
+        print("Compuesto Inorganico")
+        print("Formula:", self.elemento1 + self.elemento2)
+        print("Nombre:", self.nombre)
+        print("Numero de Oxidacion del Oxigeno:", self.nOxidacion)
+        print("Clase:", self.clase)
+
+class Nomenclaturaa():
+    def __init__(self,nombre):
+        self.elmentoo1 = "Cl"
+        self.elmentoo2 = "H"
+        self.clase = "Acido"
+        self.nombre = nombre
+       
+
+    def infor(self):
+        print("EL",self.elmentoo2 + self.elmentoo1,"Es muy corrosivo y ácido. Se emplea comúnmente como reactivo químico y se trata de un ácido fuerte que se disocia completamente en disolución acuosa.")
+
+       
+    def mostrar_datossd(self):
+        print("Compuesto Inorganico")
+        print("Fórmula: ",self.elmentoo2 + self.elmentoo1)
+        print("Clase: ",self.clase)
+
+   
+   
+#Clase
+nomen = Nomenclatura("Óxido cálcico")
+nomen.mostrar_datos()
+print()
+nomen.info()
+print()
+nomenc = Nomenclaturaa("Ácido clorhídrico")
+nomenc.mostrar_datossd()
+print()
+nomenc.infor()
